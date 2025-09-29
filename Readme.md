@@ -214,6 +214,7 @@ GROUP BY r.route_id, r.origin_city, r.destination_city, r.region
 ORDER BY r.region, revenue_rank;
 
 ```
+![Top 5](https://github.com/user-attachments/assets/349c6cb3-3f15-4c56-9208-f4e29f160d4c)
 
 
 
