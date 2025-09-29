@@ -2,7 +2,8 @@
 
 👤 **Author:** Murihira Muhire Arsene  
       **ID:**   27656
-📚 **Concentration:** IT in Software Engineering  
+      
+📚 IT in Software Engineering  
 📝 **Course:** Database Development with PL/SQL (INSY 8311)  
 📅 **Date:** 29 September 2025  
 
@@ -396,5 +397,4 @@ They help management plan routes, adjust pricing, and reward loyal customers.
 
 ---
 
-## ✅ Integrity Statement
-All SQL code and explanations are original. External resources (Oracle documentation, tutorials) were consulted and cited where appropriate.
+
