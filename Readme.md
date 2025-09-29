@@ -200,7 +200,8 @@ COMMIT;
 
 /* ========================= Window Function Queries ========================= */
 
--- 1. Top 5 routes by revenue per region
+## -- 1. Top 5 routes by revenue per region
+```sql
 
 SELECT r.route_id, r.origin_city, r.destination_city, r.region,
        SUM(b.ticket_price) AS total_revenue,
@@ -211,6 +212,8 @@ JOIN bookings b ON f.flight_id = b.flight_id
 WHERE b.booking_status = 'Confirmed'
 GROUP BY r.route_id, r.origin_city, r.destination_city, r.region
 ORDER BY r.region, revenue_rank;
+
+```
 
 
 
